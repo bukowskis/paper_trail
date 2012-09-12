@@ -235,3 +235,4 @@ module PaperTrail
     end
   end
 end
+ActiveRecord::Base.send :include, PaperTrail::Model
